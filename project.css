@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo-photo{
+    height: 20px;
+    width: 100px;
+    }
+    .menu-container
+    {padding: 16px;
+        justify-content: space-around;
+        background-color: wheat;
+        display: flex; align-items: center;
+    }
+    .home
+    {        display: flex;
+        
+    }
+    .iteam { 
+        margin-left: 10px;
+       padding: 10px;
+       cursor: pointer;
+    }
+    .iteam:hover
+    { 
+        color: aquamarine;
+    }
+    .sent { align-items: center;
+        background-color: rgb(39, 38, 38);
+      height: 100vh ;
+      color: aliceblue;
+      display: flex;
+      justify-content: space-around;
+    }
+    .image{
+       width: 500px;
+        justify-content: end;
+    }
+    .ami{
+        font-size: 60px;
+font-weight: bolder;    }
+
+.riik{
+    cursor: pointer;
+}
+.riik:hover
+{ 
+    color: aquamarine;
+}
