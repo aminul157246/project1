@@ -4,13 +4,13 @@
 }
 
 .logo-photo{
-    height: 20px;
-    width: 100px;
+    height: 40px;
+    width: 140px;
     }
     .menu-container
-    {padding: 16px;
+    {padding: 50px;
         justify-content: space-around;
-        background-color: wheat;
+        background-color: wheat; margin-left: 10px;
         display: flex; align-items: center;
     }
     .home
@@ -43,6 +43,9 @@ font-weight: bolder;    }
 
 .riik{
     cursor: pointer;
+    background-color: brown;
+    padding: 10px;
+    border: none;
 }
 .riik:hover
 { 
@@ -53,7 +56,7 @@ font-weight: bolder;    }
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 120px;
+    margin-top: 80px;
 }
 .chobi{
     width: 350px;
@@ -61,7 +64,9 @@ font-weight: bolder;    }
 #maj{
  text-align: center;
 font-size: 70px;
-margin: 20px;
+padding: 50px;
+
+
 }
 .mainmalik{
     background-color: aquamarine;
@@ -97,7 +102,7 @@ margin: 20px;
 .kaka{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 .b1{
     cursor: pointer; text-align: center;
@@ -126,6 +131,10 @@ margin: 20px;
     font-weight: 900;
     font-style: inherit;
     text-align: center;
+   padding: 40px;
+  
+
+  
 }
 .color {
     text-decoration: underline;
@@ -152,4 +161,39 @@ margin: 20px;
     align-items: center;
     justify-content: center;margin-top: 10px;
     margin-bottom: 10px;
+}
+.footer-container{
+display: flex;
+justify-content: space-around;
+    height: 25%;
+    width: 100%;
+    background-color: black;
+}
+.f1{
+    width: 100px;
+    border: none;
+    padding: 5px;
+    background-color: black;
+    color: aliceblue;margin: 20px;
+}
+.f2{
+    width: 100px;
+    border: none;
+    padding: 5px;
+    background-color: black;
+    color: aliceblue;margin: 20px;
+}
+.f3{
+    width: 100px;
+    border: none;
+    padding: 5px;
+    background-color: black;
+    color: aliceblue;margin: 20px;
+}
+.f4{
+    width: 100px;
+    border: none;
+    padding: 5px;margin: 20px;
+    background-color: black;
+    color: aliceblue;
 }
