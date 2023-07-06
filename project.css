@@ -48,3 +48,32 @@ font-weight: bolder;    }
 { 
     color: aquamarine;
 }
+.line
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+}
+.chobi{
+    width: 350px;
+}
+#maj{
+ text-align: center;
+font-size: 70px;
+margin: 20px;
+}
+.mainmalik{
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+.bt{
+    color: chartreuse;
+    background-color: cornflowerblue;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.bt:hover { color: darkgreen;
+}
