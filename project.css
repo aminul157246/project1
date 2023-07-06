@@ -38,7 +38,7 @@
         justify-content: end;
     }
     .ami{
-        font-size: 60px;
+        font-size: 48px;
 font-weight: bolder;    }
 
 .riik{
@@ -76,4 +76,80 @@ margin: 20px;
     cursor: pointer;
 }
 .bt:hover { color: darkgreen;
+}
+.border1{
+    border: 3px solid black;
+    width: 200px; 
+
+    padding: 10px;margin: 20px;
+}
+.border2{
+    border: 3px solid black;width: 200px;
+    margin: 20px; padding: 10px;
+}
+
+.border3{
+    border: 3px solid black;width: 200px;padding: 10px;margin: 20px;
+
+}
+
+
+.kaka{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.b1{
+    cursor: pointer; text-align: center;
+}
+.b1:hover{ 
+    color: aquamarine;text-align: center;
+}
+.b2{
+    cursor: pointer;text-align: center;
+}
+.b2:hover{
+    color: aquamarine;
+}
+.b3{
+    cursor: pointer;text-align: center;
+}
+.b3:hover{
+    color: aquamarine;
+}
+.banker{ background-color: burlywood;
+    height: 100vh;
+
+}
+.same{
+    font-size: 80px;
+    font-weight: 900;
+    font-style: inherit;
+    text-align: center;
+}
+.color {
+    text-decoration: underline;
+    color: blue;
+}
+.colorr {
+    text-decoration: underline;color: blue;
+}
+.colorrr {
+    text-decoration: underline;color: blue;
+}
+.one{ display: flex;
+    align-items: center;
+    justify-content: center;margin-top: 10px;
+    margin-bottom: 10px;
+}
+.two{ display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.three{ display: flex;
+    align-items: center;
+    justify-content: center;margin-top: 10px;
+    margin-bottom: 10px;
 }
